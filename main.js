@@ -27,119 +27,100 @@ function createCard(date, day, games) {
   `
 }
 
-;(document.querySelector(`#cards`).innerHTML =
-  createCard('20/11', 'terça', createGame(`qatar`, `13:00`, `ecuador`)) +
-
+document.querySelector(`#cards`).innerHTML =
+  createCard("20/11", "domingo", createGame(`qatar`, `13:00`, `ecuador`)) +
   createCard(
-    '21/11',
-    'segunda',
+    "21/11",
+    "segunda",
     createGame(`england`, `07:00`, `iran`) +
       createGame(`senegal`, `13:00`, `netherlands`) +
       createGame(`usa`, `16:00`, `wales`)
   ) +
-
-
   createCard(
-    '22/11',
-    'terça',
+    "22/11",
+    "terça",
     createGame(`argentina`, `07:00`, `saudi`) +
       createGame(`denmark`, `10:00`, `tunisia`) +
-      createGame(`mexico`, `13:00`, `poland`)+
+      createGame(`mexico`, `13:00`, `poland`) +
       createGame(`france`, `16:00`, `australia`)
   ) +
-
-
   createCard(
-    '23/11',
-    'quarta',
+    "23/11",
+    "quarta",
     createGame(`morocco`, `07:00`, `croatia`) +
       createGame(`germany`, `10:00`, `japan`) +
-      createGame(`spain`, `13:00`, `costa`)+
+      createGame(`spain`, `13:00`, `costa`) +
       createGame(`belgium`, `16:00`, `canada`)
   ) +
-
-
   createCard(
-    '24/11',
-    'quinta',
+    "24/11",
+    "quinta",
     createGame(`switzerland`, `07:00`, `comeroon`) +
-    createGame(`uruguay`, `10:00`, `korea`)+
+      createGame(`uruguay`, `10:00`, `korea`) +
       createGame(`portugal`, `13:00`, `ghana`) +
       createGame(`brazil`, `16:00`, `serbia`)
-      
   ) +
   createCard(
-    '25/11',
-    'sexta',
+    "25/11",
+    "sexta",
     createGame(`wales`, `07:00`, `iran`) +
-    createGame(`qatar`, `10:00`, `senegal`)+
+      createGame(`qatar`, `10:00`, `senegal`) +
       createGame(`netherlands`, `13:00`, `ecuador`) +
       createGame(`england`, `16:00`, `usa`)
   ) +
-
   createCard(
-    '26/11',
-    'sábado',
+    "26/11",
+    "sábado",
     createGame(`tunisia`, `07:00`, `australia`) +
-    createGame(`poland`, `10:00`, `saudi`)+
+      createGame(`poland`, `10:00`, `saudi`) +
       createGame(`france`, `13:00`, `denmark`) +
       createGame(`argentina`, `16:00`, `mexico`)
   ) +
-
   createCard(
-    '27/11',
-    'sexta',
+    "27/11",
+    "domingo",
     createGame(`japan`, `07:00`, `costa`) +
-    createGame(`belgium`, `10:00`,`morocco`)+
+      createGame(`belgium`, `10:00`, `morocco`) +
       createGame(`croatia`, `13:00`, `canada`) +
       createGame(`spain`, `16:00`, `germany`)
   ) +
-
-
   createCard(
-    '28/11',
-    'segunda',
-    createGame(`comeroon`, `07:00`, `serbia`)+
-    createGame(`korea`, `10:00`, `ghana`) +
+    "28/11",
+    "segunda",
+    createGame(`comeroon`, `07:00`, `serbia`) +
+      createGame(`korea`, `10:00`, `ghana`) +
       createGame(`brazil`, `13:00`, `switzerland`) +
       createGame(`portugal`, `16:00`, `uruguay`)
   ) +
-
   createCard(
-    '29/11',
-    'segunda',
-    createGame(`ecuador`, `12:00`, `senegal`)+
-    createGame(`netherlands`, `12:00`, `qatar`) +
+    "29/11",
+    "terça",
+    createGame(`ecuador`, `12:00`, `senegal`) +
+      createGame(`netherlands`, `12:00`, `qatar`) +
       createGame(`iran`, `16:00`, `usa`) +
       createGame(`wales`, `16:00`, `england`)
   ) +
-
-
   createCard(
-    '30/11',
-    'segunda',
-    createGame(`tunisia`, `12:00`, `france`)+
-    createGame(`australia`, `12:00`, `denmark`) +
+    "30/11",
+    "quarta",
+    createGame(`tunisia`, `12:00`, `france`) +
+      createGame(`australia`, `12:00`, `denmark`) +
       createGame(`poland`, `16:00`, `argentina`) +
       createGame(`saudi`, `16:00`, `mexico`)
   ) +
-
   createCard(
-    '01/12',
-    'segunda',
-    createGame(`croatia`, `12:00`, `belgium`)+
-    createGame(`canada`, `12:00`, `morocco`) +
+    "01/12",
+    "quinta",
+    createGame(`croatia`, `12:00`, `belgium`) +
+      createGame(`canada`, `12:00`, `morocco`) +
       createGame(`japan`, `16:00`, `spain`) +
       createGame(`costa`, `16:00`, `germany`)
   ) +
-
-
   createCard(
-    '02/12',
-    'sexta',
+    "02/12",
+    "sexta",
     createGame(`korea`, `12:00`, `portugal`) +
-      createGame(`ghana`, `12:00`, `uruguay`)+
+      createGame(`ghana`, `12:00`, `uruguay`) +
       createGame(`brazil`, `16:00`, `comeroon`) +
       createGame(`serbia`, `16:00`, `switzerland`)
-  ))
-  
+  )
